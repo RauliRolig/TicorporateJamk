@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: hsl(202, 100%, 50%);
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 90px 0 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+h2 {
+  color: #333;
+}
+section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Voit lisätä halutun välimatkan kuvien väliin */
+}
